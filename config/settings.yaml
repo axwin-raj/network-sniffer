@@ -1,0 +1,13 @@
+# Application settings
+
+# VirusTotal API Key (get one at https://www.virustotal.com)
+vt_api_key: "2dd1d53280e8c8e8a89d898bb6ab6a96faa93fec3238c6c4ac701c3de935246c"
+
+# Default CIDR range for ARP/port scans
+default_ip_range: "192.168.1.0/24"
+
+# Default port range for vulnerability scans
+default_port_range: "1-1000"
+
+# UI theme to load ("dark" or "light")
+theme: "dark"
